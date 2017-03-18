@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <!--css-->
+    <link href="//cdn.bootcss.com/fullPage.js/2.9.3/jquery.fullpage.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lib/timeline.css">
+    <link rel="stylesheet" href="css/pfold.css">
+    <link rel="stylesheet" href="css/custom1.css">
+
+</head>
+<body>
+<div id="fullpage" class="fullpage-wrapper">
+    <div class="section section1" data-anchor="page1">
+        <div class="sec-container">
+            <div class="face"></div>
+            <div class="text-container">
+                <p class="my-name">my name is</p>
+                <p class="name">林&nbsp;榕</p>
+                <p class="en-name">Jake</p>
+                <hr>
+                <p class="intro">The first time when I press F12 to view the source code of a website, I became interested in web development. During the 2-year study in Australia, I spent my spare time on learning front-end web development via a variety of resources, looking for starting my career as a web developer. </p>
+            </div>
+        </div>
+    </div>
+    <div class="section section2" data-anchor="page2">
+        <div class="container-fluid">
+            <header><h1 class="sec2-h">My Timeline</h1></header>
+            <div id="myTimeline">
+            </div>
+        </div>
+    </div>
+    <div class="section section3" data-anchor="page3">
+        <div class="container">
+            <header><h1 class="sec3-h">Self Skill Assessment</h1></header>
+            <div class="skill-list row">
+                <div class="skill-box box-1 col-lg-3 col-md-3 col-sm-8">
+                    <div class="skill-1 skill-item">
+                        <div class="circle" id="circles-1"></div>
+                        <div class="skill-text">
+                            <h4>Fundamental Knowledge</h4>
+                            <p>
+                                Mastery of <em>HTML5</em>&<em>CSS3</em>
+                                <br><br>
+                                Knowledge of CSS preprocessor <em>(Less)</em>
+                                <br><br>
+                                Able to use <em>Photoshop</em> for graph processing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box box-2 col-lg-3 col-md-3 col-sm-8">
+                    <div class="skill-1 skill-item">
+                        <div class="circle" id="circles-2"></div>
+                        <div class="skill-text">
+                            <h4>Framework Proficiency</h4>
+                            <p>
+                                Knowledge of the two major framework for web development
+                                <br><br>
+                                <em>AngularJS</em>&<em>Bootstrap</em>
+                                <br><br>
+                                Able to use other third party plugins for better animation
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box box-3 col-lg-3 col-md-3 col-sm-8">
+                    <div class="skill-1 skill-item">
+                        <div class="circle" id="circles-3"></div>
+                        <div class="skill-text">
+                            <h4>Data Manipulation</h4>
+                            <p>
+                                Basic knowledge of <em>PHP</em>&<em>SQL</em>
+                                <br><br>
+                                Able to use <em>Ajax</em> for data communication
+                                <br><br>
+                                Ability to draw <br><em>ER diagrams</em> for non-tech users
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box box-4 col-lg-3 col-md-3 col-sm-8">
+                    <div class="skill-1 skill-item">
+                        <div class="circle" id="circles-4"></div>
+                        <div class="skill-text">
+                            <h4>Website Optimization</h4>
+                            <p>
+                                Knowledge of <em>Media Query</em> for responsive design
+                                <br><br>
+                                Use meta tags for <em>SEO</em> (Search Engine Optimization)
+                                <br><br>
+                                Able to resolve some compatibility issues using<br>
+                                <em>modernizr.js</em>&<br><em>normalize.css</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section4" data-anchor="page4">
+        <div class="container">
+            <header><h1 class="sec4-h">My Project</h1></header>
+            <div class="projects">
+                <div class="project project-1">
+                    <a href="javascript:">
+                        <div class="project-bg"></div>
+                    </a>
+                    <div class="project-info">
+                        <h3>Art Gallery</h3>
+                        <br>
+                        <strong>Description:</strong>
+                        <p>An art gallery website designed as a personal work<br>
+                            Integrated with responsive design and some<br>
+                            basic e-commerce features such as <br>
+                            drag & drop shopping cart<br>
+                            JavaScript is used to build the animation of gallery
+                        </p>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div id="uc-container" class="uc-container">
+                    <div class="uc-initial-content">
+                        <span>Key Tech</span>
+                        <!-- custom content -->
+                        <span class="clickme">Click me</span>
+                    </div>
+                    <div class="uc-final-content">
+                        <!-- custom content -->
+                        <div class="scrollwrap">
+                            <strong>AngularJs:</strong><p>Serve as the main javascript framework for the whole website. UI-router is used for navigation.</p>
+                            <strong>Bootstrap:</strong><p>Serve as the main css framework. Together with media query to realize responsive design.</p>
+                            <strong>Ajax:</strong><p>Responsible for data communication in terms of back-end database and getting gallery data from json file.</p>
+                        </div>
+                        <span class="close">x</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section5" data-anchor="page5">
+        <div class="container">
+            <header><h1 class="sec5-h">Contact</h1></header>
+            <div class="contact-list row">
+                <a class="github col-md-3" href="https://github.com/a62275218"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+                <a class="linkedin col-md-3" href="https://www.linkedin.com/in/rlin34/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
+                <a class="mail col-md-3" href="mailto:linrong123wjy@gmail.com"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a>
+                <a class="facebook col-md-3" href="http://www.facebook.com"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--js-->
+<script src="js/lib/jquery-3.1.1.js"></script>
+<script src="//cdn.bootcss.com/fullPage.js/2.9.3/jquery.fullpage.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.js"></script>
+<script src="//cdn.bootcss.com/move.js/0.5.0/move.js"></script>
+<script src="js/lib/timeline.js"></script>
+<script src="js/lib/jquery-albe-timeline-1.0.0.js"></script>
+<script src="js/lib/circles.js"></script>
+<script src="js/modernizr.custom.79639.js"></script>
+<script src="js/jquery.pfold.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

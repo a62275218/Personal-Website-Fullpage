@@ -1,0 +1,211 @@
+/*header of each section*/
+header {
+  margin: 0 auto;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 0;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+header h1 {
+  font-weight: bold;
+}
+header .sec2-h {
+  opacity: 0;
+}
+header .sec3-h,
+header .sec4-h {
+  margin-bottom: 50px;
+  opacity: 0;
+}
+header .sec5-h {
+  margin-bottom: 100px;
+  opacity: 0;
+}
+/*first section*/
+.section1 {
+  background-image: url(../img/sec_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 40%;
+  padding-top: 5px;
+}
+.section1 .sec-container {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.section1 .sec-container .face {
+  position: relative;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background-image: url(../img/face1.png);
+  background-size: 100% 100%;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  opacity: 0;
+}
+.section1 .sec-container .text-container {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 760px;
+  text-shadow: 2px 2px 5px #000000;
+}
+.section1 .sec-container .text-container p:nth-of-type(1) {
+  font-family: 'Archer SSm A', 'Archer SSm B', Georgia, Times, serif;
+  padding-top: 15px;
+  font-size: 30px;
+  font-style: italic;
+  opacity: 0;
+}
+.section1 .sec-container .text-container p:nth-of-type(2) {
+  font-family: 宋体;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+.section1 .sec-container .text-container p:nth-of-type(3) {
+  line-height: 60px;
+  font-size: 60px;
+  font-family: "Verlag A", "Verlag B", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  opacity: 0;
+}
+.section1 .sec-container .text-container p:nth-of-type(4) {
+  line-height: 30px;
+  font-size: 24px;
+  opacity: 0;
+}
+.section1 .sec-container .text-container hr {
+  border: 3px solid #fff;
+  opacity: 0;
+}
+/*second section*/
+.section2 {
+  background-image: url(../img/sec_bg_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*third section*/
+.section3 {
+  background-image: url(../img/sec_bg_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section3 .skill-box {
+  height: 500px;
+  left: -200%;
+}
+.section3 .skill-box .skill-item {
+  width: 95%;
+  height: 100%;
+  background: rgba(109, 181, 238, 0.69);
+  border: 5px solid rgba(51, 85, 238, 0.69);
+  border-radius: 10px 10px 10px;
+}
+.section3 .skill-box .skill-item .circle {
+  height: 30%;
+  width: 120px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.section3 .skill-box .skill-item .circle .circles-text {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+.section3 .skill-box .skill-item .skill-text {
+  width: 85%;
+  margin: 0 auto;
+}
+.section3 .skill-box .skill-item .skill-text h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.section3 .skill-box .skill-item .skill-text em {
+  background: #fff;
+  padding: 0 5px;
+}
+/*fourth section*/
+.section4 {
+  background-image: url(../img/sec_bg_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section4 .projects {
+  margin: 0 auto;
+}
+.section4 .projects .project {
+  width: 600px;
+  height: 376px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.section4 .projects .project .project-bg {
+  width: 100%;
+  height: 100%;
+  background: url(../img/project_bg.png);
+  background-repeat: no-repeat;
+  transition: All 0.4s ease-in-out;
+}
+.section4 .projects .project .project-bg:hover {
+  transform: scale(2) !important;
+}
+.section4 .projects .project .project-info {
+  color: #fff;
+  background: rgba(89, 148, 195, 0.75);
+  z-index: 99;
+  position: relative;
+  height: 400px;
+  top: -60px;
+  padding: 0 15px;
+  transition: All 0.4s ease-in-out;
+}
+.section4 .projects .project .project-info h3 {
+  padding: 15px 0 0 0;
+  font-weight: bold;
+}
+.section4 .projects .project .project-info strong,
+.section4 .projects .project .project-info p {
+  font-size: 20px;
+  line-height: 40px;
+}
+.section4 .projects .project .project-info:hover {
+  top: -376px !important;
+}
+.section4 .projects .space {
+  height: 75px;
+}
+/*fifth section*/
+.section5 {
+  background-image: url(../img/sec_bg_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section5 .contact-list {
+  margin: 0 auto;
+}
+.section5 .contact-list a i {
+  margin-left: 40%;
+}
+.section5 .contact-list .github {
+  color: #000000;
+}
+.section5 .contact-list .linkedin {
+  color: #0077b5;
+}
+.section5 .contact-list .mail {
+  color: #ed4335;
+}
+.section5 .contact-list .facebook {
+  color: #3b5998;
+}
