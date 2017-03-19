@@ -151,7 +151,7 @@ header .sec5-h {
 .section4 .projects .project {
   width: 600px;
   height: 376px;
-  margin: 0 auto;
+  margin: 75px auto;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -186,9 +186,6 @@ header .sec5-h {
 }
 .section4 .projects .project .project-info:hover {
   top: -376px !important;
-}
-.section4 .projects .space {
-  height: 75px;
 }
 /*fifth section*/
 .section5 {
