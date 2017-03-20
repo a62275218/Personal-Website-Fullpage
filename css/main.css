@@ -151,7 +151,7 @@ header .sec5-h {
 .section4 .projects .project {
   width: 600px;
   height: 376px;
-  margin: 0 auto;
+  margin: 0 auto 74px;
   box-sizing: border-box;
   overflow: hidden;
 }
